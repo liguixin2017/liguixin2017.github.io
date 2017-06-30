@@ -1,38 +1,157 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>下拉菜单实例|菜鸟教程(runoob.com)</title>
-<meta charset="utf-8">
-<style>
-.dropdown {
-  position: relative;
-  display: inline-block;
+    <meta charset="utf-8">
+    <title>黎桂辛的简历</title>
+    <link rel="stylesheet" href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style type="text/css">
+
+        .biaoti{
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .neirong{
+            font-size: 14px;
+        }
+        .ll{
+            color: green;
+        }
+        @media (min-width: 768px) {
+            .zuonei{
+                text-align: center;
+            }
+        }
+        @media (min-width: 992px) {
+
+            .biaoti{
+                font-size: 35px;
+            }
+            .neirong{
+                font-size: 18px;
+            }
+            .zuonei{
+                text-align:left;
+            }
+.fist{
+    padding: 0px;
+    padding-right: 10px;
 }
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  padding: 12px 16px;
-}
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-</style>
+            .fist2{
+                padding: 0px;
+
+            }
+            #geren{
+                font-size: 60px;
+            }
+            #zhineng{
+                font-size: 40px;
+            }
+        }
+        @media (min-width: 1200px) {
+            .neirong{
+                font-size: 18px;
+            }
+            .biaoti{
+                font-size: 35px;
+            }
+            .zuonei{
+                text-align: left;
+            }
+            .fist{
+                padding: 0px;
+                padding-right: 10px;
+            }
+            .fist2{
+                padding: 0px;
+            }
+            #geren{
+                font-size: 60px;
+            }
+            #zhineng{
+                font-size: 40px;
+            }
+        }
+    </style>
 </head>
 <body>
-
-<h2>鼠标移动后出现下拉菜单</h2>
-<p>将鼠标移动到指定元素上就能看到下拉菜单。</p>
-
-<div class="dropdown">
-  <span>鼠标移动到我这！</span>
-  <div class="dropdown-content">
-    <p>菜鸟教程</p>
-    <p>www.runoob.com</p>
-  </div>
+<div class="container" style="background-color: peru;height: 100%;padding: 0px">
+    <div  class="col-md-4 col-xs-12 fist" style="margin: 0px;font-size: 40px;margin-top: 20px;">
+<div id="geren" style="background-color: black;text-align:center;vertical-align:middle;color: peru;height: 150px;line-height: 150px">
+    黎桂辛
 </div>
+</div>
+    <div class="col-md-8 col-xs-12 fist2" style="margin: 0px;font-size: 20px;margin-top: 20px">
+        <div id="zhineng" style="background-color: black;text-align:center;vertical-align:middle;color: peru;height: 150px;line-height: 150px">
+            求职意向:web前端
+        </div>
+    </div>
+    <div class="col-md-4 col-xs-12 zuonei" style="text-align: center" >
+        <div class="col-md-12 " >
+        <h3>个人信息</h3>
+            <div  class="neirong" style="margin-left: 15px">
+            <p>  姓 名：黎桂辛</p>
+            <p>  性 别：男</p>
+            <p>  年 龄：26</p>
+            <p>学 历：本科</p>
+
+            </div>
+            <hr style="background-color: darkgrey;height: 1px;border: none">
+        </div>
+        <div class="col-md-12 ">
+            <h3>联系方式</h3>
+            <div class="neirong" style="margin-left: 15px">
+                <p style="font-weight: bold">  电 话：18575770927</p>
+                <p>  微 信：13558429712</p>
+                <p>  Q Q：632497163</p>
+            </div>
+            <hr style="background-color: darkgrey;height: 1px;border: none">
+        </div>
+        <div class="col-md-12">
+            <h3>通信地址</h3>
+            <div class="neirong" style="margin-left: 15px">
+                <p> 深圳龙岗区禾坪路</p>
+            </div>
+        </div>
+
+    </div>
+    <div class="col-md-8 col-xs-12">
+        <div class="col-md-12" style="text-align: center;padding-top: 5px">
+        <span  class="biaoti" style="border: 1px solid saddlebrown;margin-top: 5px;">教育背景</span>
+            <div class="neirong">
+                <P><b>广西科技大学</b></P>
+                <P>计算机科学与通信工程学院</P>
+                <P>数字媒体技术</P>
+            </div>
+        </div>
+        <div class="col-md-12" style="text-align: center;">
+            <span  class="biaoti" style="border: 1px solid saddlebrown;margin-top: 5px;">专业技能</span>
+            <div class="neirong">
+                <P><b>熟悉：html5,css3,javascrip,jQuery,bootstrap</b></P>
+                <P>会用：ps，flash</P>
+                <P>其他：java，</P>
+            </div>
+        </div>
+        <div class="col-md-12"style="text-align: center;">
+            <span  class="biaoti" style="border: 1px solid saddlebrown;margin-top: 5px;">工作经历</span>
+            <div class="neirong">
+                <P><b>广州触动科技有限公司</b></P>
+                <P>2015.10-2017.12</P>
+                <P>手机游戏前端开发</P>
+                <P>主要负责游戏界面的实现，功能的实现，逻辑的实现以及人机交互的实现</P>
+            </div>
+
+        </div>
+    </div>
+    <div class="col-md-12 col-xs-12">
+<br>
+        <br>
+        <br>
+
+    </div>
+</div>
+
 
 </body>
 </html>
