@@ -3,22 +3,36 @@
 <head>
     <meta charset="utf-8">
     <title>黎桂辛的简历</title>
-    <link href="bootstrap.min.css" rel="stylesheet">
-    <script src="jquery-3.2.1.min.js"></script>
-    <script src="bootstrap.min.js"></script>
+    <link href="boots/css/bootstrap.min.css" rel="stylesheet">
+    <script src="boots/jquery-3.2.1.min.js"></script>
+    <script src="boots/js/bootstrap.min.js"></script>
     <style type="text/css">
 
+        .zuoneirong:hover{
+            font-size: 22px;
+        }
+
+        #geren{
+            font-size: 60px;
+        }
+        #zhineng{
+            font-size: 40px;
+        }
         .biaoti{
-            font-size: 18px;
+            font-size: 36px;
             font-weight: bold;
+            text-shadow: #3c3c3c 2px 2px 1px;
         }
         .neirong{
-            font-size: 14px;
+            font-size: 24px;
         }
         .ll{
             color: green;
         }
         @media (min-width: 768px) {
+            .container{
+               
+            }
             .zuonei{
                 text-align: center;
             }
@@ -79,6 +93,7 @@
             }
         }
     </style>
+    <script src="com.js"></script>
 </head>
 <body>
 <div class="container" style="background-color: peru;height: 100%;padding: 0px">
@@ -93,9 +108,9 @@
         </div>
     </div>
     <div class="col-md-4 col-xs-12 zuonei" style="text-align: center" >
-        <div class="col-md-12 " >
+        <div class="col-md-12 zuoxin" >
         <h3><span class="glyphicon glyphicon-paperclip"></span> 个人信息</h3>
-            <div  class="neirong" style="margin-left: 15px">
+            <div  class="neirong zuoneirong" style="margin-left: 15px">
             <p>  姓 名：黎桂辛</p>
             <p>  性 别：男</p>
             <p>  年 龄：26</p>
@@ -104,18 +119,18 @@
             </div>
             <hr style="background-color: darkgrey;height: 1px;border: none">
         </div>
-        <div class="col-md-12 ">
+        <div class="col-md-12 zuoxin">
             <h3><span class="glyphicon glyphicon-earphone"></span> 联系方式</h3>
-            <div class="neirong" style="margin-left: 15px">
+            <div class="neirong zuoneirong" style="margin-left: 15px">
                 <p style="font-weight: bold">  电 话：18575770927</p>
                 <p>  微 信：13558429712</p>
                 <p>  Q Q：632497163</p>
             </div>
             <hr style="background-color: darkgrey;height: 1px;border: none">
         </div>
-        <div class="col-md-12">
+        <div class="col-md-12 zuoxin">
             <h3><span class="glyphicon glyphicon-home"></span> 通信地址</h3>
-            <div class="neirong" style="margin-left: 15px">
+            <div class="neirong zuoneirong" style="margin-left: 15px">
                 <p> 深圳龙岗区禾坪路</p>
             </div>
         </div>
@@ -131,27 +146,69 @@
             </div>
         </div>
         <div class="col-md-12" style="text-align: center;">
-            <span  class="biaoti" style="border: 1px solid saddlebrown;margin-top: 5px;">专业技能</span>
-            <div class="neirong">
-                <P><b>熟悉：html5,css3,javascrip,jQuery,bootstrap</b></P>
-                <P>会用：ps，flash</P>
-                <P>其他：java，c++,<b>git</b>管理代码</P>
+            <div class="col-md-12"><span  class="biaoti" style="border: 1px solid saddlebrown;margin-top: 5px;">专业技能</span></div>
+            <div class="col-md-4">
+                <div style="width: 180px;height: 250px;border: 5px solid white" id="dong1">
+                    <h1 style="margin-top: 100px;position: relative">HTML</h1>
+                    <div style="position: relative;display: none">
+                        <p>熟练HTML/XHTML标记语言</p>
+                        <p>深刻理解web标准</p>
+                        <p>熟练HTML熟悉盒模型和各类布局方式、 能够根据设计图实现页面布局和交互效果</p>
+                    </div>
+                </div>
+                </div>
+            <div class="col-md-4">
+
+                    <div style="width: 180px;height: 250px;border: 5px solid white" id="dong2">
+                        <h1 style="margin-top: 100px;position: relative">CSS</h1>
+                        <div style="position: relative;display: none">
+                            <p>熟练运用css及css新特性</p>
+                            <p>熟悉css3标准，能够解决常见兼容性问题</p>
+                            <p>掌握BootStrap框架</p>
+                        </div>
+                    </div>
+
+            </div>
+            <div class="col-md-4">
+
+                    <div style="width: 180px;height: 250px;border: 5px solid white" id="dong3">
+                        <h1 style="margin-top: 100px;position: relative">SKILL</h1>
+                        <div style="position: relative;display: none">
+                            <p>熟练javascrip,对js面向对象编程的思想有一定的了解</p>
+                            <p>熟练掌握jQuery</p>
+                            <p>学习过java，c++</p>
+                            <p>会用ps，flash等软件</p>
+                            <p>会用git管理代码</p>
+                        </div>
+                    </div>
+
             </div>
         </div>
         <div class="col-md-12"style="text-align: center;">
             <span  class="biaoti" style="border: 1px solid saddlebrown;margin-top: 5px;">工作经历</span>
-            <div class="col-md-12">
-                <div class="col-md-6 neirong border">
-                    <P><b>广州触动科技有限公司</b></P>
-                    <P>2015.10-2016.11</P>
-                    <P>手机游戏前端开发</P>
-                    <P>主要负责游戏界面的实现，功能的实现，逻辑的实现以及人机交互的实现</P>
+            <div class="col-md-12" style="margin-top: 7px">
+                <div class="col-md-6 neirong border" style="height: 200px;margin-left: auto;margin-right: auto">
+                    <div style="width: 250px;margin: 0px auto"><ul>
+                        <li id="li1" style="text-align: left;margin: 20px auto"><b><a>广州触动科技有限公司</a></b></li>
+                        <li id="li2"  style="text-align: left"><b><a>容桂顺的网络有限公司</a></b></li>
+                    </ul></div>
+
                 </div>
                 <div class="col-md-6 neirong">
-                    <P><b>容桂顺的网络有限公司</b></P>
-                    <P>2017.02-2017.05</P>
-                    <P>web前端开发助理</P>
-                    <P>主要负责静态页面的实现，效果的实现，还有帮助处理一些图片</P>
+                    <div id="gongzuojingli" style="position: relative;border: 2px solid black;width: 250px;height: 200px;margin: 0px auto">
+                      <div id="gz1" style="position: absolute;">
+                          <P>广州触动科技有限公司</P>
+                          <P>2015.10-2016.11</P>
+                          <P>手机游戏前端开发</P>
+                          <P>主要负责游戏界面的实现，功能的实现，逻辑的实现以及人机交互的实现</P>
+                      </div>
+                        <div id="gz2" style="position: absolute;display: none">
+                            <P>容桂顺的网络有限公司</P>
+                            <P>2017.02-2017.05</P>
+                            <P>web前端开发助理</P>
+                            <P>主要负责静态页面的实现，效果的实现，还有帮助处理一些图片</P>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
